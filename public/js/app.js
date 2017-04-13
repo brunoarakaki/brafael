@@ -56,7 +56,7 @@ angular.module('RafaelShoes', [
 	var appCtrl = this;
 
 	// $rootScope.api = "//localhost:3000/"
-    $rootScope.api = "//brafael.herokuapp.com/"
+    $rootScope.api = "https://salty-thicket-18637.herokuapp.com/"
 
     if(localStorageService.get('home')){
         $rootScope.viewFlag = localStorageService.get('home');
